@@ -9,7 +9,7 @@ function ProductList({ onHomeClick }) {
     const [addedToCart, setAddedToCart] = useState({}); // State to track if an item has been added to the cart
 
     const dispatch = useDispatch();
-    const cart = useSelector((state) => state.cart.items); // Access cart items from Redux store
+    const cart = useSelector((state) => state.cart.items);
 
 
     const plantsArray = [
