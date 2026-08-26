@@ -261,7 +261,6 @@ function ProductList({ onHomeClick }) {
     };
 
     const handleAddToCart = (plant) => {
-        console.log('Adding to cart:', plant);
         //  if (!addedToCart[plant.name] && !cartItems.some(item => item.name === plant.name)) {
             dispatch(addItem(plant));
             setAddedToCart((prevState) => ({
